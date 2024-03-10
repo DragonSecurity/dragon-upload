@@ -1,5 +1,9 @@
 service: dragon-upload
-frameworkVersion: 3
+frameworkVersion: 3.38.0
+
+custom:
+  serverless-offline:
+    noPrependStageInUrl: true
 
 provider:
   name: aws
